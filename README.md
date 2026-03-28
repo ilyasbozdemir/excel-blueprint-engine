@@ -1,31 +1,39 @@
-# Excel Şablon Klonlama API
+# 📊 Excel Blueprint Master
 
-Bu uygulama, existing (mevcut) Excel şablonlarını klonlayarak, içerisindeki **stilleri (renk, font, kenarlık)** ve **formülleri** bozmadan dinamik veri enjekte etmenizi sağlar.
+[![Build and Release](https://github.com/ilyasbozdemir/excel-blueprint-engine/actions/workflows/release.yml/badge.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/actions/workflows/release.yml)
+[![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/releases)
+[![Package Manager](https://img.shields.io/badge/pnpm-certified-orange.svg)](https://pnpm.io/)
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/graphs/commit-activity)
 
-## Özellikler
-- **Stil Koruma**: Orijinal dosyadaki tüm grafik, stil ve biçimlendirmeler korunur.
-- **Formül Desteği**: Excel formülleri (SUM, VLOOKUP vb.) aktif olarak kalır.
-- **Modern Arayüz**: Glassmorphism tasarımı ile kullanıcı dostu deneyim.
-- **Dinamik Hücre Erişimi**: Hücre bazlı (A1, B2 vb.) veri girişi.
+**Excel Blueprint Master**, mevcut Excel şablonlarını klonlayarak içerisindeki **stilleri (renk, font, kenarlık)**, **grafikleri** ve **formülleri** bozmadan dinamik veri enjekte etmenizi sağlayan yüksek performanslı bir masaüstü uygulamasıdır.
 
-## Başlatma
-Uygulamayı yerelinizde çalıştırmak için:
+## ✨ Önemli Özellikler
+- **🎨 Kusursuz Stil Koruma**: Orijinal dosyadaki tüm grafik, stil ve biçimlendirmeler (border, fill, font) birebir korunur.
+- **🚀 Akıllı Kod Jeneratörü**: Excel şablonunuzu saniyeler içinde söküp (`extract`) temiz bir JavaScript/TypeScript koduna dönüştürür.
+- **📈 Formül Desteği**: Excel formülleri (SUM, VLOOKUP vb.) aktif ve hesaplanabilir olarak kalır.
+- **💎 Modern Arayüz**: Electron tabanlı Glassmorphism tasarımı ile premium kullanıcı deneyimi.
+- **📂 Toplu İşlem Opsiyonu**: JSON verileri üzerinden binlerce satırı şablona otomatik enjekte etme.
 
-1. Bağımlılıkları kurun (Zaten yüklü değilse):
+## 🛠️ Kurulum ve Başlatma
+Uygulamayı yerelinizde geliştirmek veya çalıştırmak için **pnpm** önerilir:
+
+1. **Bağımlılıkları Kurun**:
    ```bash
-   npm install
+   pnpm install
    ```
-2. Geliştirici modunda başlatın:
+2. **Geliştirici Modunda (Hot-Reload) Başlatın**:
    ```bash
-   npm run dev
+   pnpm dev
    ```
-3. Ayrı bir terminalde veya Vite başladıktan sonra:
+3. **Üretim (Production) Build Alın**:
    ```bash
-   npm start
+   pnpm build
    ```
 
-## Kullanım
-1. **Şablon Seç**: Dosya seçici ile `.xlsx` şablonunuzu yükleyin.
-2. **Tablo Seç**: Veri yazmak istediğiniz Sheet adını seçin.
-3. **Veri Gir**: "Veri Düzenleme" tabına geçerek hücre koordinatı ve yazılacak değeri girin.
-4. **Kaydet**: "Klonla ve Kaydet" butonuna bastığınızda, dosya formülleri korunarak "İndirilenler" klasörüne kaydedilir.
+## 🚀 Kullanım Senaryosu
+1. **Şablon Analizi**: `.xlsx` dosyanızı sürükleyin, "Kod Jeneratörü" ile şablonunuzun kod halini anında kopyalayın.
+2. **Dinamik Veri Girişi**: "Hızlı Giriş" sekmesinde belirli hücre koordinatlarına (A1, B5 vb.) veri girerek anında klon oluşturun.
+3. **Toplu Veri Enjeksiyonu**: JSON payload göndererek şablonu binlerce veri ile saniyeler içinde doldurup "İndirilenler" klasörüne kaydedin.
+
+---
+*Geliştirici dostu, hızlı ve hafif bir Excel motoru.*
