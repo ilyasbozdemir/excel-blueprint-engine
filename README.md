@@ -1,7 +1,7 @@
 # 📊 Excel Blueprint Master
 
 [![Build and Release](https://github.com/ilyasbozdemir/excel-blueprint-engine/actions/workflows/release.yml/badge.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/actions/workflows/release.yml)
-[![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/releases)
+[![Version](https://img.shields.io/badge/version-1.0.6-blue.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/releases)
 [![Package Manager](https://img.shields.io/badge/pnpm-certified-orange.svg)](https://pnpm.io/)
 [![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/graphs/commit-activity)
 
