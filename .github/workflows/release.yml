@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   release:
     runs-on: windows-latest
@@ -15,7 +18,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install pnpm
         uses: pnpm/action-setup@v3
@@ -37,7 +40,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
 
       - name: Build and Package
         run: pnpm build
