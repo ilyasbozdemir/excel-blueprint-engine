@@ -1,6 +1,6 @@
 {
   "name": "excel-sablon-klonlama",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Premium Excel Template Cloner",
   "main": "src/main/main.js",
   "type": "commonjs",
