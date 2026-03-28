@@ -1,7 +1,7 @@
 # 📊 Excel Blueprint Master
 
 [![Build and Release](https://github.com/ilyasbozdemir/excel-blueprint-engine/actions/workflows/release.yml/badge.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/actions/workflows/release.yml)
-[![Version](https://img.shields.io/badge/version-1.0.7-blue.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/releases)
+[![Version](https://img.shields.io/badge/version-1.1.2-blue.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://img.shields.io/github/downloads/ilyasbozdemir/excel-blueprint-engine/total.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/releases)
 [![Stars](https://img.shields.io/github/stars/ilyasbozdemir/excel-blueprint-engine.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/stargazers)
@@ -36,6 +36,15 @@ Uygulamayı yerelinizde geliştirmek veya çalıştırmak için **pnpm** öneril
 1. **Şablon Analizi**: `.xlsx` dosyanızı sürükleyin, "Kod Jeneratörü" ile şablonunuzun kod halini anında kopyalayın.
 2. **Dinamik Veri Girişi**: "Hızlı Giriş" sekmesinde belirli hücre koordinatlarına (A1, B5 vb.) veri girerek anında klon oluşturun.
 3. **Toplu Veri Enjeksiyonu**: JSON payload göndererek şablonu binlerce veri ile saniyeler içinde doldurup "İndirilenler" klasörüne kaydedin.
+
+---
+## 🚀 Yol Haritası (Gelecek Özellikler)
+- [ ] **📊 PDF Dışa Aktarımı (v2.0)**: Excel şablonlarını doğrudan rapor formatında PDF olarak kaydedebilme.
+- [ ] **🖼️ Dinamik Görüntü ve QR Kod Desteği**: Hücrelere dinamik imza, fotoğraf ve takip kodları gömebilme.
+- [ ] **🔄 SQL Connector**: JSON haricinde doğrudan veritabanı sorguları üzerinden rapor üretebilme.
+- [ ] **👁️ Canlı Önizleme (Preview)**: Veri basılmış halini anlık olarak uygulama içinden görebilme.
+- [ ] **🧵 Gelişmiş Toplu İşlem (Bulk Processing)**: Binlerce Excel dosyasını saniyeler içinde paralel işleme.
+- [ ] **🔐 Şifreli Dosya Üretimi**: Hassas raporları otomatik şifreleme desteği.
 
 ---
 ## 👨‍💻 Geliştirici
