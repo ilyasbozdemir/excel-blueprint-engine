@@ -22,5 +22,39 @@
     "electron-builder": "^24.0.0",
     "concurrently": "^8.0.1",
     "wait-on": "^7.2.0"
+  },
+  "build": {
+    "appId": "com.excel-blueprint-engine",
+    "productName": "Excel Blueprint Master",
+    "directories": {
+      "output": "release/${version}"
+    },
+    "files": [
+      "dist/**/*",
+      "src/main/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
   }
 }
