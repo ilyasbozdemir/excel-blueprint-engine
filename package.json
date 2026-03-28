@@ -1,7 +1,13 @@
 {
   "name": "excel-sablon-klonlama",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Premium Excel Template Cloner",
+  "author": "Ilyas Bozdemir",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyasbozdemir/excel-blueprint-engine.git"
+  },
   "main": "src/main/main.js",
   "type": "commonjs",
   "scripts": {

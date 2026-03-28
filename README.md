@@ -1,9 +1,11 @@
 # 📊 Excel Blueprint Master
 
 [![Build and Release](https://github.com/ilyasbozdemir/excel-blueprint-engine/actions/workflows/release.yml/badge.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/actions/workflows/release.yml)
-[![Version](https://img.shields.io/badge/version-1.0.6-blue.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/releases)
+[![Version](https://img.shields.io/badge/version-1.0.7-blue.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Downloads](https://img.shields.io/github/downloads/ilyasbozdemir/excel-blueprint-engine/total.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/releases)
+[![Stars](https://img.shields.io/github/stars/ilyasbozdemir/excel-blueprint-engine.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/stargazers)
 [![Package Manager](https://img.shields.io/badge/pnpm-certified-orange.svg)](https://pnpm.io/)
-[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ilyasbozdemir/excel-blueprint-engine/graphs/commit-activity)
 
 **Excel Blueprint Master**, mevcut Excel şablonlarını klonlayarak içerisindeki **stilleri (renk, font, kenarlık)**, **grafikleri** ve **formülleri** bozmadan dinamik veri enjekte etmenizi sağlayan yüksek performanslı bir masaüstü uygulamasıdır.
 
@@ -34,6 +36,14 @@ Uygulamayı yerelinizde geliştirmek veya çalıştırmak için **pnpm** öneril
 1. **Şablon Analizi**: `.xlsx` dosyanızı sürükleyin, "Kod Jeneratörü" ile şablonunuzun kod halini anında kopyalayın.
 2. **Dinamik Veri Girişi**: "Hızlı Giriş" sekmesinde belirli hücre koordinatlarına (A1, B5 vb.) veri girerek anında klon oluşturun.
 3. **Toplu Veri Enjeksiyonu**: JSON payload göndererek şablonu binlerce veri ile saniyeler içinde doldurup "İndirilenler" klasörüne kaydedin.
+
+---
+## 👨‍💻 Geliştirici
+**Ilyas Bozdemir** ([ilyasbozdemir](https://github.com/ilyasbozdemir))
+*Yüksek performanslı veri motorları ve Electron çözümleri.*
+
+## 📄 Lisans
+Bu proje **MIT** lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
 
 ---
 *Geliştirici dostu, hızlı ve hafif bir Excel motoru.*
